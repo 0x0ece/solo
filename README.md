@@ -3,15 +3,21 @@
 
 # Solo
 
+NEW! We launched a new tiny security key called Somu, it's live on Crowd Supply and you can [pre-order it now](https://solokeys.com/somu)!
+
+[<img src="https://miro.medium.com/max/1400/1*PnzCPLqq_5nt1gjgSEY2LQ.png" width="600">](https://solokeys.com/somu)
+
+Somu is the micro version of Solo. We were inspired to make a secure Tomu, so we took its tiny form factor, we added the secure microcontroller and firmware of Solo, et voilà! Here we have Somu.
+
+[![latest release](https://img.shields.io/github/release/solokeys/solo.svg)](https://update.solokeys.com/)
+[![Keybase Chat](https://img.shields.io/badge/chat-on%20keybase-brightgreen.svg)](https://keybase.io/team/solokeys.public)
+[![Build Status](https://travis-ci.com/solokeys/solo.svg?style=flat-square&branch=master)](https://travis-ci.com/solokeys/solo)
+
 Solo is an open source security key, and you can get one at [solokeys.com](https://solokeys.com).
 
 [<img src="https://static.solokeys.com/images/photos/hero-on-white-cropped.png" width="600">](https://solokeys.com)
 
 Solo supports FIDO2 and U2F standards for strong two-factor authentication and password-less login, and it will protect you against phishing and other online attacks. With colored cases and multilingual guides we want to make secure login more personable and accessible to everyone around the globe.
-
-[![latest release](https://img.shields.io/github/release/solokeys/solo.svg)](https://update.solokeys.com/)
-[![Keybase Chat](https://img.shields.io/badge/chat-on%20keybase-brightgreen.svg)](https://keybase.io/team/solokeys.public)
-[![Build Status](https://travis-ci.com/solokeys/solo.svg?style=flat-square&branch=master)](https://travis-ci.com/solokeys/solo)
 
 This repo contains the Solo firmware, including implementations of FIDO2 and U2F (CTAP2 and CTAP) over USB and NFC. The main implementation is for STM32L432, but it is easily portable.
 
